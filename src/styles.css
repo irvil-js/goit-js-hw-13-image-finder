@@ -18,6 +18,34 @@ body {
   color: #212121;
 }
 
+.search-form {
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.search-input {
+  min-width: 150px;
+  width: 20%;
+  height: 30px;
+  border-radius: 5px;
+  cursor: text;
+  outline: none;
+  margin-right: 3px;
+}
+
+.btn {
+  min-width: 70px;
+  width: 7%;
+  border-radius: 5px;
+  outline: none;
+}
+
+.btn-load {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 /* Article List */
 
 .gallery {
