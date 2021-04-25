@@ -5,7 +5,7 @@ export default {
   query: '',
   perPage: 12,
 
-  fetcArticles: async function () {
+  fetchImages: async function () {
     const keyApi = '21325700-25e62cbcf61651ae4fee03a33';
     const requestParams = `?image_type=photo&orientation=horizontal&q=${this.query}&page=${this.page}&per_page=12&key=${keyApi}`;
 
