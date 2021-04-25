@@ -39,6 +39,7 @@ body {
   width: 7%;
   border-radius: 5px;
   outline: none;
+  background-color: lightgreen;
 }
 
 .btn-load {
